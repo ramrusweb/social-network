@@ -1,0 +1,8 @@
+.app-wrapper {
+  display: grid;
+}
+
+.logo {
+  width: 60px;
+  border-radius: 50%;
+}
