@@ -1,13 +1,10 @@
 import './App.css';
+import Header from './components/Header';
 
 const App = () => {
   return(
     <div className="app-wrapper">
-      <header className="header">
-        <div className="logo">
-          <img src="https://s3-symbol-logo.tradingview.com/facebook--600.png" />
-        </div>
-      </header>
+      <Header />
 
       <sidebar className="sidebar">
         <nav className="nav-menu">
@@ -19,7 +16,7 @@ const App = () => {
             <li><a href="#s">Settings</a></li>
           </ul>
         </nav>
-      </sidebar>
+    </sidebar>
 
       <section className="content-section">
         <div className="content">
