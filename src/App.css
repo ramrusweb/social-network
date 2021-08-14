@@ -70,3 +70,26 @@ a {
   color: #333333;
   border: 2px solid #eeeeee;
 }
+
+.content-logo {
+  width: 100%;
+  padding-bottom: 10px;
+}
+
+.content-info {
+  width: 400px;
+}
+
+.content-avatar {
+  width: 100px;
+}
+
+.content-info h1, .content-info span {
+  font-size: 18px;
+  color: #333333;
+}
+
+.content-info a {
+  text-decoration: none;
+  color: #333333;
+}
