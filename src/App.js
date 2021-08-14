@@ -1,22 +1,12 @@
 import './App.css';
 import Header from './components/Header';
+import Sidebar from './components/Sidebar';
 
 const App = () => {
   return(
     <div className="app-wrapper">
       <Header />
-
-      <sidebar className="sidebar">
-        <nav className="nav-menu">
-          <ul>
-            <li><a href="#s">Profile</a></li>
-            <li><a href="#s">Messages</a></li>
-            <li><a href="#s">News</a></li>
-            <li><a href="#s">Music</a></li>
-            <li><a href="#s">Settings</a></li>
-          </ul>
-        </nav>
-    </sidebar>
+      <Sidebar />
 
       <section className="content-section">
         <div className="content">
