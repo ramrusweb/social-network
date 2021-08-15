@@ -1,3 +1,5 @@
+import './Profile.css';
+
 const Profile = () => {
   return(
     <section className="content-section">
