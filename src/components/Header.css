@@ -1,0 +1,19 @@
+.logo {
+  display: flex;
+}
+
+.logo img {
+  width: 60px;
+  border-radius: 50%;
+  margin: 20px;
+}
+
+.header {
+  grid-area: header;
+  height: 100px;
+  margin-top: 10px;
+  border-radius: 6px;
+  background-color: #ffffff;
+  color: #333333;
+  border: 2px solid #eeeeee;
+}

@@ -18,23 +18,6 @@ a {
   "nav contentt";
 }
 
-.logo {
-  display: flex;
-}
-
-.logo img {
-  width: 60px;
-  border-radius: 50%;
-  margin: 20px;
-}
-
-.header {
-  grid-area: header;
-  background-color: red;
-  height: 100px;
-  margin-top: 10px;
-}
-
 .nav {
   grid-area: nav;
 }
@@ -64,7 +47,7 @@ a {
   padding: 10px;
 }
 
-.header, .sidebar, .content-section {
+.sidebar, .content-section {
   border-radius: 6px;
   background-color: #ffffff;
   color: #333333;
