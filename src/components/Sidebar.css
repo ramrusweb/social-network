@@ -1,0 +1,25 @@
+.nav {
+  grid-area: nav;
+}
+
+.sidebar {
+  margin-top: 60px;
+  margin-right: 5px;
+  border-radius: 6px;
+  background-color: #ffffff;
+  color: #333333;
+  border: 2px solid #eeeeee;
+}
+
+.nav-menu li:nth-child(4) {
+  margin-bottom: 10px;
+}
+
+.nav-menu  a {
+  color: #333333;
+  text-decoration: none;
+}
+
+.nav-menu li {
+  font-size: 20px;
+}
