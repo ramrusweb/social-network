@@ -6,7 +6,7 @@ a {
   outline: none;
 }
 
-.app-wrapper {
+.app__wrapper {
   display: grid;
   width: 1170px;
   margin: 0 auto;
