@@ -1,9 +1,9 @@
-import './Sidebar.css';
+import SidebarStyle from './Sidebar.module.css';
 
 const Sidebar = () => {
   return(
-    <sidebar className="sidebar">
-      <nav className="nav-menu">
+    <sidebar className={SidebarStyle.sidebar}>
+      <nav className={SidebarStyle.nav__menu}>
         <ul>
           <li><a href="#s">Profile</a></li>
           <li><a href="#s">Messages</a></li>
