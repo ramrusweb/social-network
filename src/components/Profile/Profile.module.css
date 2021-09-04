@@ -1,36 +1,33 @@
-.content-section {
+.content__section {
   grid-area: contentt;
   margin-top: 60px;
   margin-left: 5px;
   padding: 10px;
-}
-
-.content-section {
   border-radius: 6px;
   background-color: #ffffff;
   color: #333333;
   border: 2px solid #eeeeee;
 }
 
-.content-logo {
+.content__logo {
   width: 100%;
   padding-bottom: 10px;
 }
 
-.content-info {
+.content__info {
   width: 400px;
 }
 
-.content-avatar {
+.content__avatar {
   width: 100px;
 }
 
-.content-info h1, .content-info span {
+.content__info h1, .content__info span {
   font-size: 18px;
   color: #333333;
 }
 
-.content-info a {
+.content__info a {
   text-decoration: none;
   color: #333333;
 }
