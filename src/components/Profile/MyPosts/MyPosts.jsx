@@ -5,8 +5,8 @@ const MyPosts = () => {
   return(
     <section className={MyPostsStyle.myposts__wrapper}>
     <div className={MyPostsStyle.posts}>
-        <Post />
-        <Post />
+        <Post message="Hi, how are you?" likes="15" />
+        <Post message="It's my first post" likes="20" />
     </div>
     </section>
   );
