@@ -2,7 +2,7 @@ import ProfileStyle from './Profile.module.css';
 
 const Profile = () => {
   return(
-    <section className={ProfileStyle.content__section}>
+    <section>
       <div className="content">
         <img className={ProfileStyle.content__logo} src="https://www.strunkmedia.com/wp-content/uploads/2018/01/digital-ads-header.jpg" />
 

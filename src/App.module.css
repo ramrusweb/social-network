@@ -17,3 +17,8 @@ a {
   "header header"
   "nav contentt";
 }
+
+.app__wrapper__content {
+  grid-area: contentt;
+  background-color: seagreen;
+}
