@@ -4,18 +4,20 @@ import Sidebar from './components/Sidebar/Sidebar';
 import Profile from './components/Profile/Profile';
 import MyPosts from './components/Profile/MyPosts/MyPosts';
 import Dialogs from './components/Dialogs/Dialogs';
+import {BrowserRouter, Route} from 'react-router-dom';
 
 const App = () => {
   return(
-    <div className={AppStyle.app__wrapper}>
-      <Header />
-      <Sidebar />
-      {/* <Profile />
-      <MyPosts /> */}
-      <div className={AppStyle.app__wrapper__content}>
-        <Dialogs />
+    <BrowserRouter>
+      <div className={AppStyle.app__wrapper}>
+        <Header />
+        <Sidebar />
+        <div className={AppStyle.app__wrapper__content}>
+          <Route path="/profile" component={Profile} />
+          <Route path="/dialogs" component={Dialogs} />
+        </div>
       </div>
-    </div>
+    </BrowserRouter>
   );
 }
 
