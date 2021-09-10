@@ -12,7 +12,6 @@ a {
   margin: 0 auto;
   grid-template-rows: 60px 1fr;
   grid-template-columns: 2fr 10fr;
-  /* grid-gap: 10px; */
   grid-template-areas:
   "header header"
   "nav contentt";
@@ -20,5 +19,4 @@ a {
 
 .app__wrapper__content {
   grid-area: contentt;
-  background-color: seagreen;
 }

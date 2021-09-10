@@ -2,9 +2,9 @@ import DialogsStyle from './Dialogs.module.css';
 
 const Dialogs = (props) => {
     return(
-        <div>
+        <section className={DialogsStyle.dialogs}>
             Dialogs
-        </div>
+        </section>
     );
 }
 
