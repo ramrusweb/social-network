@@ -1,5 +1,6 @@
 import DialogsStyle from './Dialogs.module.css';
 import Dialog from './Dialog/Dialog';
+import Message from './Message/Message';
 
 const Dialogs = (props) => {
     return(
@@ -14,9 +15,9 @@ const Dialogs = (props) => {
                 <Dialog id="7" name="Andrey" />
             </div>
             <div className={DialogsStyle.messages}>
-                <div className={DialogsStyle.message}>Hi</div>
-                <div className={DialogsStyle.message}>How are you?</div>
-                <div className={DialogsStyle.message}>Yo, man</div>
+                <Message message="Hi, how are you?" />
+                <Message message="What are you doing?" />
+                <Message message="You study React?" />
             </div>
         </section>
     );
