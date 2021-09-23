@@ -1,31 +1,17 @@
 import DialogsStyle from './Dialogs.module.css';
-import {NavLink} from 'react-router-dom';
+import Dialog from './Dialog/Dialog';
 
 const Dialogs = (props) => {
     return(
         <section className={DialogsStyle.dialogs}>
             <div className={DialogsStyle.dialogs_items}>
-                <div className={DialogsStyle.dialog}>
-                    <NavLink to="/dialogs/1">Ruslan</NavLink>
-                </div>
-                <div className={DialogsStyle.dialog + ' '+ DialogsStyle.active}>
-                    <NavLink to="/dialogs/2" className={DialogsStyle.active}>Kamila</NavLink>
-                </div>
-                <div className={DialogsStyle.dialog}>
-                    <NavLink to="/dialogs/3">Evgeniy</NavLink>
-                </div>
-                <div className={DialogsStyle.dialog}>
-                    <NavLink to="/dialogs/4">Alexander</NavLink>
-                </div>
-                <div className={DialogsStyle.dialog}>
-                    <NavLink to="/dialogs/6">Said</NavLink>
-                </div>
-                <div className={DialogsStyle.dialog}>
-                    <NavLink to="/dialogs/7">Alexandra</NavLink>
-                </div>
-                <div className={DialogsStyle.dialog}>
-                    <NavLink to="/dialogs/8">Andrey</NavLink>
-                </div>
+                <Dialog id="1" name="Ruslan" />
+                <Dialog id="2" name="Kamila" />
+                <Dialog id="3" name="Evgeniy" />
+                <Dialog id="4" name="Alexander" />
+                <Dialog id="5" name="Said" />
+                <Dialog id="6" name="Alexandra" />
+                <Dialog id="7" name="Andrey" />
             </div>
             <div className={DialogsStyle.messages}>
                 <div className={DialogsStyle.message}>Hi</div>

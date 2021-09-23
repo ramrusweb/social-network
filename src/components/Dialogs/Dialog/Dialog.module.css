@@ -1,0 +1,7 @@
+.dialog {
+    padding: 10px;
+    margin: 20px 0;
+    background-color: gainsboro;
+    border-radius: 4px;
+    border: 1px solid lightgray;
+}
