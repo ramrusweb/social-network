@@ -1,14 +1,7 @@
 .myposts__wrapper {
     display: grid;
-    /* width: 1170px; */
     margin: 0 auto;
     padding-top: 10px;
-
-    /* grid-template-rows: 60px 1fr; */
-    /* grid-template-columns: repeat(1, 100%); */
-    /* grid-gap: 50px; */
-    /* grid-template-areas: */
-        /* "posts"; */
 }
 
 .posts {
