@@ -3,12 +3,11 @@
 }
 
 .sidebar {
-  margin-top: 60px;
-  margin-right: 5px;
   border-radius: 6px;
   background-color: #ffffff;
   color: #333333;
   border: 2px solid #eeeeee;
+  height: 170px;
 }
 
 .nav__menu li:nth-child(4) {
