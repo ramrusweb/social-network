@@ -15,7 +15,9 @@
 }
 
 .like__btn {
-    margin-right: 10px;
+    margin-left: 20px;
+    padding: 5px;
+
 }
 
 .like__btn:active {
