@@ -3,7 +3,7 @@ import Post from './Post/Post';
 import AddPost from './Post/AddPost/AddPost';
 
 const MyPosts = (props) => {
-  let postsElements = props.myPosts.map( p => <Post id={p.id} message={p.message} likes={p.likes} />);
+  let postsElements = props.posts.map( p => <Post id={p.id} message={p.message} likes={p.likes} />);
 
   return(
     <section className={MyPostsStyle.myposts__wrapper}>
