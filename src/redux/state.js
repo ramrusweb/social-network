@@ -6,6 +6,14 @@ let state = {
     ]
   },
 
+  sidebar: {
+    friends: [
+      {id: 1, name: "Alex", imgUrl: "https://images.theconversation.com/files/350865/original/file-20200803-24-50u91u.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1200&h=1200.0&fit=crop"},
+      {id: 2, name: "John", imgUrl: "https://images.theconversation.com/files/350865/original/file-20200803-24-50u91u.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1200&h=1200.0&fit=crop"},
+      {id: 1, name: "Alexa", imgUrl: "https://images.theconversation.com/files/350865/original/file-20200803-24-50u91u.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1200&h=1200.0&fit=crop"}
+    ]
+  },
+
   dialogsPage: {
     dialogs: [
       {id: 1, name: 'Ruslan'},
